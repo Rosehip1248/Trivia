@@ -13,4 +13,4 @@ If you wish to use this quiz architecture then there are a few things to note ba
 - The structure of the file "trivia_hscores.txt" is as follows:
           - Each player has a score block which consists of 2 lines, the first line is the player's name and the second is that              player's score.
 
-This is built on the example about reading from plain text files in the text book "Python Programming Third Edition For The Absolute Beginnger" by Michael Dawson.
+This is built on the example about reading from plain text files in the text book "Python Programming Third Edition For The Absolute Beginner" by Michael Dawson.
