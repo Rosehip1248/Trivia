@@ -3,7 +3,7 @@ This is a Python program that allows a player to take a multiple choice quiz whe
 
 Questions are stored in "trivia_questions.txt" and the list of players' scores is stored in "trivia_hscores.txt".
 
-If you wish to use this quiz architecture then there are a few things to note based on the way the main program (trivia.py) reads from the plain text file:
+If you wish to use this quiz architecture then there are a few things to note based on the way the main program (Trivia.py) reads from the plain text files:
 - In neither of the .txt files must there be any blank lines otherwise this could cause the main program to read and stop reading at undesirable times.
 - The structure of the file "trivia_questions.txt" is as follows:
           - The first line is reserved for the title of the entire quiz episode (my title is 'Python Trivia'). Every line after              this belongs to a 'question block'.
