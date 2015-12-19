@@ -1,0 +1,14 @@
+Steve
+3
+Pete
+5
+Fred
+2
+Larry
+6
+Richard
+4
+Tom
+1
+Matt
+4

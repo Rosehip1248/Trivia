@@ -1,0 +1,28 @@
+Python Trivia
+Exception Types
+Which of these errors will you see if you try and divide by/zero? (1pt)
+IOError
+KeyError
+ZeroDivisionError
+ValueError
+3
+1
+This isn't a trick question.
+Pickling Data
+Which type of file is required to store pickled objects? (2pts)
+Binary
+Plain Text
+Spreadsheet
+PDF
+1
+2
+Pickled objects can only be stored in binary files.
+Text File Access Modes
+Which of the following access modes allows you to read from and write to a/text file but will incur an error if the file doesn't exist? (3pts)
+r
+a
+r+
+w+
+3
+3
+r+ allows read from and write to access but an error/occurs if the file required does not exist.
