@@ -5,6 +5,7 @@ This quiz comes with a top 5 score listing
 """
 
 import sys
+from _dbus_bindings import String
 
 def open_file(file_name, mode):
     """Opening the quiz file."""
@@ -43,8 +44,8 @@ def welcome(title):
 
 def append_score(score_file, score):
     name = raw_input("\nWhat is your name?: ")
-    score_file.write("\n%s\n" % name)
-    score_file.write(score)
+    score_file.writelines(name + "\n")
+    score_file.writelines(String(score) + "\n")
 
 def next_score(hscores_file):
     name = hscores_file.readline() #name captures the score element from the corresponding high score in the document
